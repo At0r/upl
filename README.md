@@ -22,8 +22,8 @@ No templates avalable in this version. If you want redesign HTML and CSS code, j
 
 # DB Structure
 The script provides for the following columns in the table:
-1. ID (int, auto increment)
-2. link (text) - note name field
-3. caption (text) - not used in this release, script add "via_form" text by default
-4. content (longtext) - main entry content
-5. notes (text, NULL by default)
+- ID (int, auto increment)
+- link (text) - note name field
+- caption (text) - not used in this release, script add "via_form" text by default
+- content (longtext) - main entry content
+- notes (text, NULL by default)
