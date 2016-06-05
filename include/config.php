@@ -16,7 +16,8 @@ define(DB_TABLENAME, "table"); //MySQL BD table name
 
 $upload_directory = "/var/www/upload/";	// Default dir for uploaded files
 
-define(URL_PATH, "/upl/"); // URL adrees part
+define(URL_PATH, "/upl/"); // URL adress of script part
+define(RESULT_PATH, "http://localhost:80/upload/"); // URL of upload folder to generate permanent adress
 	
 	
 ?>
