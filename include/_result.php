@@ -24,7 +24,7 @@ if (empty(GET_EDITOR)) {
 	}
 	elseif (!empty(GET_RESULT)) { 
 		echo "Файл успешно загружен:<br />"; ?>
-		<input name="filename" type="text" size="45" onClick="this.setSelectionRange(0, this.value.length)" value="https://i.atorero.com/<?php echo GET_RESULT; ?>"> <?php
+		<input name="filename" type="text" size="45" onClick="this.setSelectionRange(0, this.value.length)" value="<?php echo RESULT_PATH.GET_RESULT; ?>"> <?php
 		$link = "Загрузить еще файл?";
 	}
 	else {
